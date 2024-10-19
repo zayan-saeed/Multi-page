@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 
 
 function TodoApp(){
-  const [checked, setChecked] = useState(false);
+  
   const [todos,setTodos]=useState([])
   const [todo,settodo]=useState('')
   function addTodo(){
